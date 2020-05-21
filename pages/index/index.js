@@ -10,9 +10,8 @@ Page({
     // Load Model
     const net = await this.loadModel()
     //
-    
     this.setData({result: 'Loading' })
-    //
+    
     let count = 0
     const listener = camera.onCameraFrame((frame) => {
       count++
@@ -68,7 +67,66 @@ Page({
       var addStr = "my"
       //this.str = this.str.concat(" ", addStr)
       this.setData({ result: str })
-
+    }
+    else if ((res === 5) && (res != temp)) {
+      temp = res
+      var addStr = "name"
+      //this.str = this.str.concat(" ", addStr)
+      this.setData({ result: str })
+    }
+    else if ((res === 6) && (res != temp)) {
+      temp = res
+      var addStr = "is"
+      //this.str = this.str.concat(" ", addStr)
+      this.setData({ result: str })
+    }
+    else if ((res === 7) && (res != temp)) {
+      temp = res
+      var addStr = "xue"
+      //this.str = this.str.concat(" ", addStr)
+      this.setData({ result: str })
+    }
+    else if ((res === 8) && (res != temp)) {
+      temp = res
+      var addStr = "but"
+      //this.str = this.str.concat(" ", addStr)
+      this.setData({ result: str })
+    }
+    else if ((res === 9) && (res != temp)) {
+      temp = res
+      var addStr = "if"
+      //this.str = this.str.concat(" ", addStr)
+      this.setData({ result: str })
+    }
+    else if ((res === 10) && (res != temp)) {
+      temp = res
+      var addStr = "future"
+      //this.str = this.str.concat(" ", addStr)
+      this.setData({ result: str })
+    }
+    else if ((res === 11) && (res != temp)) {
+      temp = res
+      var addStr = "computing"
+      //this.str = this.str.concat(" ", addStr)
+      this.setData({ result: str })
+    }
+    else if ((res === 12) && (res != temp)) {
+      temp = res
+      var addStr = "what"
+      //this.str = this.str.concat(" ", addStr)
+      this.setData({ result: str })
+    }
+    else if ((res === 13) && (res != temp)) {
+      temp = res
+      var addStr = "those"
+      //this.str = this.str.concat(" ", addStr)
+      this.setData({ result: str })
+    }
+    else if ((res === 14) && (res != temp)) {
+      temp = res
+      var addStr = "cannot"
+      //this.str = this.str.concat(" ", addStr)
+      this.setData({ result: str })
     }
   }
 })
